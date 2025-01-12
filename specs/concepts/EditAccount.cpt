@@ -1,0 +1,11 @@
+
+# Edit Account Butonuna Tıklanır
+* Elementine tıkla "OpenEditAccountButon"
+
+# Edit Account Modülünde Account Name Textbox'ı temizlenir ve <text> texti girilir
+* "EditAccountAccountNameInput" alanı üzerinde CTRL+a tuşuna bas
+* <text> textini "EditAccountAccountNameInput" elemente yaz
+
+# Edit Account Modülünde Update Butonuna Tıklanır
+* Elementine tıkla "EditAccountUpdateButon"
+* "2000" milisaniye bekle

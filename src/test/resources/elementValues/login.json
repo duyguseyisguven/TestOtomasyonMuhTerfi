@@ -1,0 +1,29 @@
+[
+  {
+    "key": "InvalidUserNameOrPasswordText",
+    "value": "//div[text()='Username or Password Invalid!']",
+    "type": "xpath"
+  },
+  {
+    "key": "BackButton",
+    "value": "//*[text()=\"Back\"]",
+    "type": "xpath"
+  }, {
+  "key": "LogoutButton",
+  "value": "//*[text()=\"Logout\"]",
+  "type": "xpath"
+},
+  {
+    "key": "LoginUserNameInput",
+    "value": "//input[@placeholder='Username']",
+    "type": "xpath"
+  }, {
+  "key": "LoginPasswordInput",
+  "value": "//input[@placeholder='Password']",
+  "type": "xpath"
+}, {
+  "key": "LoginButon",
+  "value": "//div[text()='Login']",
+  "type": "xpath"
+}
+]

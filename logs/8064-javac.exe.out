@@ -1,0 +1,328 @@
+src\test\java\base\BaseTest.java:6: error: package org.apache.commons.lang does not exist
+import org.apache.commons.lang.StringUtils;
+                              ^
+src\test\java\base\BaseTest.java:7: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\base\BaseTest.java:8: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src\test\java\base\BaseTest.java:9: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+src\test\java\base\BaseTest.java:10: error: package org.openqa.selenium.interactions does not exist
+import org.openqa.selenium.interactions.Actions;
+                                       ^
+src\test\java\base\BaseTest.java:11: error: package org.openqa.selenium.remote does not exist
+import org.openqa.selenium.remote.DesiredCapabilities;
+                                 ^
+src\test\java\base\BaseTest.java:29: error: cannot find symbol
+    protected static WebDriver driver;
+                     ^
+  symbol:   class WebDriver
+  location: class BaseTest
+src\test\java\base\BaseTest.java:30: error: cannot find symbol
+    protected static Actions actions;
+                     ^
+  symbol:   class Actions
+  location: class BaseTest
+src\test\java\base\BaseTest.java:32: error: cannot find symbol
+    DesiredCapabilities capabilities;
+    ^
+  symbol:   class DesiredCapabilities
+  location: class BaseTest
+src\test\java\base\BaseTest.java:33: error: cannot find symbol
+    ChromeOptions chromeOptions;
+    ^
+  symbol:   class ChromeOptions
+  location: class BaseTest
+src\test\java\base\BaseTest.java:93: error: cannot find symbol
+    public ChromeOptions chromeOptions() {
+           ^
+  symbol:   class ChromeOptions
+  location: class BaseTest
+src\test\java\step\BaseSteps.java:3: error: package io.restassured does not exist
+import io.restassured.RestAssured;
+                     ^
+src\test\java\step\BaseSteps.java:4: error: package io.restassured.response does not exist
+import io.restassured.response.Response;
+                              ^
+src\test\java\step\BaseSteps.java:8: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Assertions;
+                            ^
+src\test\java\step\BaseSteps.java:10: error: package org.openqa.selenium.interactions does not exist
+import org.openqa.selenium.interactions.Actions;
+                                       ^
+src\test\java\step\BaseSteps.java:11: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src\test\java\step\BaseSteps.java:12: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src\test\java\step\BaseSteps.java:23: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.*;
+                                   ^
+src\test\java\step\BaseSteps.java:28: error: cannot find symbol
+    public static Response response;
+                  ^
+  symbol:   class Response
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:32: error: cannot find symbol
+    WebElement findElement(String key) {
+    ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:44: error: cannot find symbol
+    public By getElementInfoToBy(ElementInfo elementInfo) {
+           ^
+  symbol:   class By
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:61: error: cannot find symbol
+    private void clickElement(WebElement element) {
+                              ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:64: error: cannot find symbol
+    private void hoverElement(WebElement element) {
+                              ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:67: error: cannot find symbol
+    private boolean isDisplayedBy(By by) {
+                                  ^
+  symbol:   class By
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:73: error: cannot find symbol
+    public WebElement findElementWithKey(String key) {
+           ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:116: error: cannot find symbol
+    public WebElement getElementWithKeyIfExists(String key) {
+           ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:9: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.*;
+^
+src\test\java\base\BaseTest.java:44: error: cannot find symbol
+        if (StringUtils.isEmpty(System.getenv("key"))) {
+            ^
+  symbol:   variable StringUtils
+  location: class BaseTest
+src\test\java\base\BaseTest.java:47: error: cannot find symbol
+                    driver = new ChromeDriver(chromeOptions());
+                                 ^
+  symbol:   class ChromeDriver
+  location: class BaseTest
+src\test\java\base\BaseTest.java:53: error: cannot find symbol
+                    driver = new ChromeDriver(chromeOptions());
+                                 ^
+  symbol:   class ChromeDriver
+  location: class BaseTest
+src\test\java\base\BaseTest.java:56: error: cannot find symbol
+                actions = new Actions(driver);
+                              ^
+  symbol:   class Actions
+  location: class BaseTest
+src\test\java\base\BaseTest.java:94: error: cannot find symbol
+        chromeOptions = new ChromeOptions();
+                            ^
+  symbol:   class ChromeOptions
+  location: class BaseTest
+src\test\java\base\BaseTest.java:95: error: cannot find symbol
+        capabilities = DesiredCapabilities.chrome();
+                       ^
+  symbol:   variable DesiredCapabilities
+  location: class BaseTest
+src\test\java\step\BaseSteps.java:33: error: cannot find symbol
+        By infoParam = getElementInfoToBy(findElementInfoByKey(key));
+        ^
+  symbol:   class By
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:34: error: cannot find symbol
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
+        ^
+  symbol:   class WebDriverWait
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:34: error: cannot find symbol
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
+                                          ^
+  symbol:   class WebDriverWait
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:35: error: cannot find symbol
+        WebElement webElement = webDriverWait
+        ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:36: error: cannot find symbol
+                .until(ExpectedConditions.presenceOfElementLocated(infoParam));
+                       ^
+  symbol:   variable ExpectedConditions
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:37: error: cannot find symbol
+        ((JavascriptExecutor) driver).executeScript(
+          ^
+  symbol:   class JavascriptExecutor
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:45: error: cannot find symbol
+        By by = null;
+        ^
+  symbol:   class By
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:47: error: cannot find symbol
+            by = By.cssSelector(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:49: error: cannot find symbol
+            by = By.name(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:51: error: cannot find symbol
+            by = By.id(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:53: error: cannot find symbol
+            by = By.xpath(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:55: error: cannot find symbol
+            by = By.linkText(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:57: error: cannot find symbol
+            by = By.partialLinkText(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:117: error: cannot find symbol
+        WebElement webElement;
+        ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:124: error: cannot find symbol
+            } catch (WebDriverException e) {
+                     ^
+  symbol:   class WebDriverException
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:129: error: cannot find symbol
+        assertFalse(Boolean.parseBoolean("Element: '" + key + "' doesn't exist."));
+        ^
+  symbol:   method assertFalse(boolean)
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:142: error: cannot find symbol
+        WebElement element = findElement(key);
+        ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:165: error: cannot find symbol
+ assertEquals("Beklenen ve elde edilen deðerler eþit deðil",format,sonAmountText);
+ ^
+  symbol:   method assertEquals(String,String,String)
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:170: error: cannot find symbol
+        Actions actions = new Actions(driver);
+        ^
+  symbol:   class Actions
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:170: error: cannot find symbol
+        Actions actions = new Actions(driver);
+                              ^
+  symbol:   class Actions
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:173: error: cannot find symbol
+                .keyUp(Keys.CONTROL)
+                       ^
+  symbol:   variable Keys
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:171: error: cannot find symbol
+        actions.keyDown(Keys.CONTROL)
+                        ^
+  symbol:   variable Keys
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:196: error: cannot find symbol
+        By by = getElementInfoToBy(elementInfo);
+        ^
+  symbol:   class By
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:207: error: cannot find symbol
+        Assertions.fail(message);
+        ^
+  symbol:   variable Assertions
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:213: error: cannot find symbol
+        By by = getElementInfoToBy(elementInfo);
+        ^
+  symbol:   class By
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:224: error: cannot find symbol
+        Assertions.fail("Element '" + key + "' still exist.");
+        ^
+  symbol:   variable Assertions
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:249: error: cannot find symbol
+        Assertions.fail(
+        ^
+  symbol:   variable Assertions
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:256: error: cannot find symbol
+        WebElement element = findElement(key);
+        ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:266: error: cannot find symbol
+        Assertions.fail("Element DOESN't have the attribute: '" + attribute + "'");
+        ^
+  symbol:   variable Assertions
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:272: error: cannot find symbol
+        WebElement element = findElement(key);
+        ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:284: error: cannot find symbol
+        Assertions.fail("Element STILL have the attribute: '" + attribute + "'");
+        ^
+  symbol:   variable Assertions
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:290: error: cannot find symbol
+        WebElement element = findElement(key);
+        ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:303: error: cannot find symbol
+        Assertions.fail("Element's attribute value doesn't match expected value");
+        ^
+  symbol:   variable Assertions
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:309: error: cannot find symbol
+        WebElement element = findElement(key);
+        ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:321: error: cannot find symbol
+        Assertions.fail("Element's attribute value doesn't contain expected value");
+        ^
+  symbol:   variable Assertions
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:327: error: cannot find symbol
+        assertTrue(containsText, "Expected text is not contained");
+        ^
+  symbol:   method assertTrue(Boolean,String)
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:333: error: cannot find symbol
+        WebElement webElement = findElementWithKey(key);
+        ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src\test\java\step\BaseSteps.java:340: error: cannot find symbol
+        response = RestAssured.given().get("http://www.omdbapi.com/?i=tt3896198&apikey=22487c12");
+                   ^
+  symbol:   variable RestAssured
+  location: class BaseSteps
+71 errors

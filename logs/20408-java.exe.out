@@ -1,0 +1,175 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (20) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 1619milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1619"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+2025-01-12 00:33:03 INFO  Reflections:219 scan - Reflections took 991 ms to scan 142 urls, producing 5140 keys and 31122 values
+{"logLevel":"debug","message":"started gRPC server on port 50778"}
+{"logLevel":"info","message":"Listening on port:50778"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Element {} var mý kontrol et yoksa hata mesajý ver {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkMinesElement' and 'step.BaseSteps.checkMinesElement'"}
+{"logLevel":"debug","message":"Found {} - {} deðiþkenlerini çýkar ve arayüzde görünen amount ile {} eþit mi kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.saveVariableString' and 'step.BaseSteps.saveVariableString'"}
+{"logLevel":"debug","message":"Found {} elementinden alýnan value deðerini {} deðiþkenine kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementAttributeExists' and 'step.BaseSteps.checkElementAttributeExists'"}
+{"logLevel":"debug","message":"Found {} elementi {} niteliðine sahip mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.selectRandomOption' and 'step.BaseSteps.selectRandomOption'"}
+{"logLevel":"debug","message":"Found {} selecti altýndaki random option boxi seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkURLContainsRepeat' and 'step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Þuanki URL {} deðerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkSumElement' and 'step.BaseSteps.checkSumElement'"}
+{"logLevel":"debug","message":"Found {} + {} deðiþkenlerini topla ve arayüzde görünen amount ile {} eþit mi kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.sendSavedValue' and 'step.BaseSteps.sendSavedValue'"}
+{"logLevel":"debug","message":"Found {} alanýna kaydedilen {} deðiþken deðerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.clickCtrlA' and 'step.BaseSteps.clickCtrlA'"}
+{"logLevel":"debug","message":"Found {} alaný üzerinde CTRL+a tuþuna bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.clickElement' and 'step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine týkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.saveAmount' and 'step.BaseSteps.saveAmount'"}
+{"logLevel":"debug","message":"Found {} elementinin iki fazlasýný {} deðiþkenine kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementExistsThenClickk' and 'step.BaseSteps.checkElementExistsThenClickk'"}
+{"logLevel":"debug","message":"Found Elementi bekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getElementWithKeyIfExists' and 'step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Element var mý kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.saveVariablee' and 'step.BaseSteps.saveVariablee'"}
+{"logLevel":"debug","message":"Found {} elementinden alýnan deðeri noktalama iþaretleri ve son üç karakter silinerek double olarak {} deðiþkenine kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.ssendKeys' and 'step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found {} textini {} elemente yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementContainsText' and 'step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementContainsText' and 'step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} deðerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.waitByMilliSeconds' and 'step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementNotExists' and 'step.BaseSteps.checkElementNotExists'"}
+{"logLevel":"debug","message":"Found Element yok mu kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementExistsThenClick' and 'step.BaseSteps.checkElementExistsThenClick'"}
+{"logLevel":"debug","message":"Found Elementi bekle ve sonra týkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkSavedValueStillSame' and 'step.BaseSteps.checkSavedValueStillSame'"}
+{"logLevel":"debug","message":"Found Kaydedilen {} deger {} elementinde hala ayný mý in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.saveVariable' and 'step.BaseSteps.saveVariable'"}
+{"logLevel":"debug","message":"Found {} elementinden alýnan value deðerini double olarak {} deðiþkenine kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getCurrentDateandClick' and 'step.BaseSteps.getCurrentDateandClick'"}
+{"logLevel":"debug","message":"Found {} elementine týkla ardýndan güncel tarih ve saati {} deðiþkenine kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getCurrentDateandClickkk' and 'step.BaseSteps.getCurrentDateandClickkk'"}
+{"logLevel":"debug","message":"Found {} elementi {} deðiþken deðerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementAttributeContains' and 'step.BaseSteps.checkElementAttributeContains'"}
+{"logLevel":"debug","message":"Found {} elementinin {} niteliði {} deðerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} elementinden alýnan value deðerini double olarak {} deðiþkenine kaydet : public void saveVariable(String key, String variablename)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tElement {} var mý kontrol et yoksa hata mesajý ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\t{} elementi {} deðerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tElement yok mu kontrol et {} : public void checkElementNotExists(String key)"}
+{"logLevel":"debug","message":"\tElement var mý kontrol et {} : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\t{} elementinden alýnan deðeri noktalama iþaretleri ve son üç karakter silinerek double olarak {} deðiþkenine kaydet : public void saveVariablee(String key, String variablename)"}
+{"logLevel":"debug","message":"\t{} elementinin {} niteliði {} deðerini içeriyor mu kontrol et : public void checkElementAttributeContains(String key, String attribute, String expectedValue)"}
+{"logLevel":"debug","message":"\t{} alaný üzerinde CTRL+a tuþuna bas : public void clickCtrlA(String key)"}
+{"logLevel":"debug","message":"\tÞuanki URL {} deðerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\t{} elementi {} niteliðine sahip mi : public void checkElementAttributeExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\t{} elementine týkla ardýndan güncel tarih ve saati {} deðiþkenine kaydet : public void getCurrentDateandClick(String key, String variablename)"}
+{"logLevel":"debug","message":"\t{} - {} deðiþkenlerini çýkar ve arayüzde görünen amount ile {} eþit mi kontrol et : public void checkMinesElement(String variablename1, String variablename2, String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tElementi bekle ve sonra týkla {} : public void checkElementExistsThenClick(String key)"}
+{"logLevel":"debug","message":"\t{} + {} deðiþkenlerini topla ve arayüzde görünen amount ile {} eþit mi kontrol et : public void checkSumElement(String variablename1, String variablename2, String key)"}
+{"logLevel":"debug","message":"\tElementi bekle {} : public void checkElementExistsThenClickk(String key)"}
+{"logLevel":"debug","message":"\t{} elementinden alýnan value deðerini {} deðiþkenine kaydet : public void saveVariableString(String key, String variablename)"}
+{"logLevel":"debug","message":"\t{} elementi {} deðiþken deðerini içeriyor mu kontrol et : public void getCurrentDateandClickkk(String key, String variablename)"}
+{"logLevel":"debug","message":"\t{} alanýna kaydedilen {} deðiþken deðerini yaz : public void sendSavedValue(String key, String variablename)"}
+{"logLevel":"debug","message":"\tElementine týkla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tKaydedilen {} deger {} elementinde hala ayný mý : public void checkSavedValueStillSame(String variablename, String key)"}
+{"logLevel":"debug","message":"\t{} selecti altýndaki random option boxi seçilir : public void selectRandomOption(String key)"}
+{"logLevel":"debug","message":"\t{} textini {} elemente yaz : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\t{} elementinin iki fazlasýný {} deðiþkenine kaydet : public void saveAmount(String key, String variablename)"}
+2025-01-12 00:33:04 INFO  Reflections:219 scan - Reflections took 490 ms to scan 142 urls, producing 5061 keys and 22649 values
+2025-01-12 00:33:05 INFO  BaseTest:44 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 12:33:05 ÖÖ org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 28224
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 28224.
+Oca 12, 2025 12:33:06 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 00:33:07 INFO  BaseSteps:315 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 00:33:08 INFO  BaseSteps:315 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 00:33:08 INFO  BaseSteps:128 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 00:33:08 INFO  BaseSteps:139 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 00:33:08 INFO  BaseSteps:120 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 00:33:08 INFO  BaseSteps:128 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 00:33:09 INFO  BaseSteps:139 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 00:33:09 INFO  BaseSteps:120 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 00:33:09 INFO  BaseSteps:128 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 00:33:09 INFO  BaseSteps:139 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 00:33:09 INFO  BaseSteps:120 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 00:33:09 INFO  BaseSteps:315 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 00:33:10 INFO  BaseSteps:315 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 00:33:10 INFO  BaseSteps:315 ssendKeys - AddMoneyExpiryDate elementine 1025 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 00:33:10 INFO  BaseSteps:315 ssendKeys - AddMoneyCVV elementine 110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 00:33:10 INFO  BaseSteps:315 ssendKeys - AddMoneyAmount elementine y2 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Element {} var mý kontrol et yoksa hata mesajý ver {}' using 'class step.BaseSteps.getElementWithKeyIfExistsWithMessage"}
+2025-01-12 00:33:10 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:10 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:10 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:10 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:10 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:10 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:11 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:11 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:11 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:11 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:11 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:11 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:11 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:11 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:12 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:12 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:12 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:12 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:12 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:12 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:12 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:12 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:13 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:13 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:13 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:13 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:13 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:13 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:13 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:13 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:14 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:14 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:14 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:14 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:14 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:14 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:14 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:14 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:15 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:15 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:15 INFO  BaseSteps:103 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 00:33:15 INFO  BaseSteps:283 getElementWithKeyIfExistsWithMessage - AmountErrorText elementi bulundu.
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

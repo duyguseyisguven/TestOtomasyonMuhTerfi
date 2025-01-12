@@ -1,0 +1,14 @@
+[ {
+  "key": "OpenEditAccountButon",
+  "value": "//div[text()='Edit account']",
+  "type": "xpath"
+}, {
+  "key": "EditAccountUpdateButon",
+  "value": "//div[text()='UPDATE']",
+  "type": "xpath"
+}, {
+  "key": "EditAccountAccountNameInput",
+  "value": "//div[text()='Account name']//parent::div//input",
+  "type": "xpath"
+}
+]

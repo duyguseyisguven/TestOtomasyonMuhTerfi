@@ -1,0 +1,5 @@
+
+# <email> mail adresi ve <password> şifresiyle login olunur
+* <email> textini "LoginUserNameInput" elemente yaz
+* <password> textini "LoginPasswordInput" elemente yaz
+* Elementine tıkla "LoginButon"

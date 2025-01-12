@@ -1,0 +1,8 @@
+[
+	"C:\\Program Files\\Gauge\\bin\\gauge.exe",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/Users/furka/IdeaProjects/TestiniumTerfiProjesi/specs/Specs/TransferMoney.spec"
+]

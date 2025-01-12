@@ -1,0 +1,78 @@
+[
+{
+  "key": "AddMoneyCloseButon",
+  "value": "//div[text()='Add money']//following-sibling::div",
+  "type": "xpath"
+},
+{
+"key": "OpenAddMoneyButon",
+"value": "//div[text()='Add money']",
+"type": "xpath"
+}, {
+  "key": "AddMoneyCardNumberInput",
+  "value": "//div[text()='Card number']//following-sibling::input",
+   "type": "xpath"
+},
+  {
+    "key": "AddMoneyCardHolderInput",
+    "value": "//div[text()='Card holder']//following-sibling::input",
+    "type": "xpath"
+  }, {
+  "key": "AddMoneyExpiryDate",
+  "value": "//div[text()='Expiry date']//following-sibling::input",
+  "type": "xpath"
+}, {
+  "key": "AddMoneyCVV",
+  "value": "//div[text()='CVV']//following-sibling::input",
+  "type": "xpath"
+}, {
+  "key": "AddMoneyAmount",
+  "value": "//div[text()='Amount']//following-sibling::input",
+  "type": "xpath"
+}, {
+  "key": "AddMoneyAddButon",
+  "value": "//div[text()='Add']",
+  "type": "xpath"
+},
+  {
+    "key": "AddMoneyRequiredCardNumber",
+    "value": "//div[text()='Card number']//following-sibling::div[text()='Required']",
+    "type": "xpath"
+  }, {
+  "key": "AddMoneyRequiredCardHolder",
+  "value": "//div[text()='Card holder']//following-sibling::div[text()='Required']",
+  "type": "xpath"
+}, {
+  "key": "AddMoneyRequiredExpiryDate",
+  "value": "//div[text()='Expiry date']//following-sibling::div[text()='Required']",
+  "type": "xpath"
+}, {
+  "key": "AddMoneyRequiredCvv",
+  "value": "//div[text()='CVV']//following-sibling::div[text()='Required']",
+  "type": "xpath"
+},{
+  "key": "AddMoneyAmountCvv",
+  "value": "//div[text()='Amount']//following-sibling::div[text()='Required']",
+  "type": "xpath"
+},
+  {
+    "key": "AddMoneyWrongDate",
+    "value": "//div[text()='Wrong date. Please give a correct date']",
+    "type": "xpath"
+  },
+  {
+    "key": "TooLongText",
+    "value": "//*[text()=\"Too Long!\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "AmountErrorText",
+    "value": "//*[contains(text(),'amount must be a `number` type')]",
+    "type": "xpath"
+  },
+  {
+    "key": "AddMoneySomethingWentWrongHataMesaj",
+    "value": "//div[text()='Opss! Something went wrong']",
+    "type": "xpath"
+  }
+]

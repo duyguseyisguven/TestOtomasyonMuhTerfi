@@ -1,0 +1,15 @@
+{
+	"Args": [
+		"run",
+		"--machine-readable",
+		"--hide-suggestion",
+		"--simple-console"
+	],
+	"FailedItems": [
+		"specs\\Specs\\TransferMoney.spec:8",
+		"specs\\Specs\\TransferMoney.spec:17",
+		"specs\\Specs\\TransferMoney.spec:26",
+		"specs\\Specs\\TransferMoney.spec:43",
+		"specs\\Specs\\TransferMoney.spec:53"
+	]
+}

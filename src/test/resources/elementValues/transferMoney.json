@@ -1,0 +1,25 @@
+[
+  {
+    "key": "ReceiveraccountSelectBox",
+    "value": "(//select)[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "TransferMoneySenderAccount",
+    "value": "//div[text()='Sender account']",
+    "type": "xpath"
+  }, {
+  "key": "TransferMoneySendButon",
+  "value": "//div[text()='Send']",
+  "type": "xpath"
+}, {
+  "key": "TransferMoneyCloseButon",
+  "value": "//div[text()='Transfer money']//following-sibling::div",
+  "type": "xpath"
+},
+  {
+    "key": "TransferMoneyAmountInput",
+    "value": "//div[text()='Amount']//parent::div//input",
+    "type": "xpath"
+  }
+]

@@ -1,0 +1,11 @@
+
+# Transfer Money Butonuna Tıklanır
+* Elementi bekle "HomePageTransferMoneyButon"
+* Elementine tıkla "HomePageTransferMoneyButon"
+
+# Transfer Money Modülünde <transferMiktari> Transfer Money Amount textbox'ina girilir
+* <transferMiktari> textini "TransferMoneyAmountInput" elemente yaz
+
+# Transfer Money Modülünde Send Butonuna Tıklanır
+* Elementine tıkla "TransferMoneySendButon"
+* "2000" milisaniye bekle

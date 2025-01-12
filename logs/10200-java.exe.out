@@ -1,0 +1,911 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (20) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 2108milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2108"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+2025-01-12 21:30:47 INFO  Reflections:219 scan - Reflections took 1656 ms to scan 142 urls, producing 5140 keys and 31121 values
+{"logLevel":"debug","message":"started gRPC server on port 56870"}
+{"logLevel":"info","message":"Listening on port:56870"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Element {} var mý kontrol et yoksa hata mesajý ver {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkMinesElement' and 'step.BaseSteps.checkMinesElement'"}
+{"logLevel":"debug","message":"Found {} - {} deðiþkenlerini çýkar ve arayüzde görünen amount ile {} eþit mi kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.saveVariableString' and 'step.BaseSteps.saveVariableString'"}
+{"logLevel":"debug","message":"Found {} elementinden alýnan value deðerini {} deðiþkenine kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.selectRandomOption' and 'step.BaseSteps.selectRandomOption'"}
+{"logLevel":"debug","message":"Found {} selecti altýndaki random option boxi seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkSumElement' and 'step.BaseSteps.checkSumElement'"}
+{"logLevel":"debug","message":"Found {} + {} deðiþkenlerini topla ve arayüzde görünen amount ile {} eþit mi kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.sendSavedValue' and 'step.BaseSteps.sendSavedValue'"}
+{"logLevel":"debug","message":"Found {} alanýna kaydedilen {} deðiþken deðerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.clickCtrlA' and 'step.BaseSteps.clickCtrlA'"}
+{"logLevel":"debug","message":"Found {} alaný üzerinde CTRL+a tuþuna bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.clickElement' and 'step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine týkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.saveAmount' and 'step.BaseSteps.saveAmount'"}
+{"logLevel":"debug","message":"Found {} elementinin iki fazlasýný {} deðiþkenine kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementExistsThenClickk' and 'step.BaseSteps.checkElementExistsThenClickk'"}
+{"logLevel":"debug","message":"Found Elementi bekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getElementWithKeyIfExists' and 'step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Element var mý kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.saveVariablee' and 'step.BaseSteps.saveVariablee'"}
+{"logLevel":"debug","message":"Found {} elementinden alýnan deðeri noktalama iþaretleri ve son üç karakter silinerek double olarak {} deðiþkenine kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.ssendKeys' and 'step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found {} textini {} elemente yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.acceptAlert' and 'step.BaseSteps.acceptAlert'"}
+{"logLevel":"debug","message":"Found Ekrana gelen alert kabul edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementContainsText' and 'step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementContainsText' and 'step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} deðerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.waitByMilliSeconds' and 'step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkElementNotExists' and 'step.BaseSteps.checkElementNotExists'"}
+{"logLevel":"debug","message":"Found Element yok mu kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.checkSavedValueStillSame' and 'step.BaseSteps.checkSavedValueStillSame'"}
+{"logLevel":"debug","message":"Found Kaydedilen {} deger {} elementinde hala ayný mý in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.saveVariable' and 'step.BaseSteps.saveVariable'"}
+{"logLevel":"debug","message":"Found {} elementinden alýnan value deðerini double olarak {} deðiþkenine kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getCurrentDateandClick' and 'step.BaseSteps.getCurrentDateandClick'"}
+{"logLevel":"debug","message":"Found {} elementine týkla ardýndan güncel tarih ve saati {} deðiþkenine kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.isKeyTimeAfterKey2Time' and 'step.BaseSteps.isKeyTimeAfterKey2Time'"}
+{"logLevel":"debug","message":"Found {} elementinin tarih ve ve zamanýnýn {} elementinden sonra olduðunu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.isAlertPresent' and 'step.BaseSteps.isAlertPresent'"}
+{"logLevel":"debug","message":"Found Ekrana alert geldi mi? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.BaseSteps.getCurrentDateandClickkk' and 'step.BaseSteps.getCurrentDateandClickkk'"}
+{"logLevel":"debug","message":"Found {} elementi {} deðiþken deðerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} elementinden alýnan value deðerini double olarak {} deðiþkenine kaydet : public void saveVariable(String key, String variablename)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tElement {} var mý kontrol et yoksa hata mesajý ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\t{} elementi {} deðerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tElement yok mu kontrol et {} : public void checkElementNotExists(String key)"}
+{"logLevel":"debug","message":"\tElement var mý kontrol et {} : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\t{} elementinden alýnan deðeri noktalama iþaretleri ve son üç karakter silinerek double olarak {} deðiþkenine kaydet : public void saveVariablee(String key, String variablename)"}
+{"logLevel":"debug","message":"\t{} alaný üzerinde CTRL+a tuþuna bas : public void clickCtrlA(String key)"}
+{"logLevel":"debug","message":"\t{} elementine týkla ardýndan güncel tarih ve saati {} deðiþkenine kaydet : public void getCurrentDateandClick(String key, String variablename)"}
+{"logLevel":"debug","message":"\t{} - {} deðiþkenlerini çýkar ve arayüzde görünen amount ile {} eþit mi kontrol et : public void checkMinesElement(String variablename1, String variablename2, String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} + {} deðiþkenlerini topla ve arayüzde görünen amount ile {} eþit mi kontrol et : public void checkSumElement(String variablename1, String variablename2, String key)"}
+{"logLevel":"debug","message":"\tEkrana gelen alert kabul edilir : public void acceptAlert()"}
+{"logLevel":"debug","message":"\t{} elementinin tarih ve ve zamanýnýn {} elementinden sonra olduðunu kontrol et : public void isKeyTimeAfterKey2Time(String key, String key2)"}
+{"logLevel":"debug","message":"\tElementi bekle {} : public void checkElementExistsThenClickk(String key)"}
+{"logLevel":"debug","message":"\t{} elementinden alýnan value deðerini {} deðiþkenine kaydet : public void saveVariableString(String key, String variablename)"}
+{"logLevel":"debug","message":"\t{} elementi {} deðiþken deðerini içeriyor mu kontrol et : public void getCurrentDateandClickkk(String key, String variablename)"}
+{"logLevel":"debug","message":"\tEkrana alert geldi mi? : public boolean isAlertPresent()"}
+{"logLevel":"debug","message":"\t{} alanýna kaydedilen {} deðiþken deðerini yaz : public void sendSavedValue(String key, String variablename)"}
+{"logLevel":"debug","message":"\tElementine týkla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tKaydedilen {} deger {} elementinde hala ayný mý : public void checkSavedValueStillSame(String variablename, String key)"}
+{"logLevel":"debug","message":"\t{} selecti altýndaki random option boxi seçilir : public void selectRandomOption(String key)"}
+{"logLevel":"debug","message":"\t{} textini {} elemente yaz : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\t{} elementinin iki fazlasýný {} deðiþkenine kaydet : public void saveAmount(String key, String variablename)"}
+2025-01-12 21:30:48 INFO  Reflections:219 scan - Reflections took 645 ms to scan 142 urls, producing 5061 keys and 22649 values
+2025-01-12 21:30:48 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:30:48 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 53597
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 53597.
+Oca 12, 2025 9:30:49 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:30:51 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:30:51 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:30:52 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:30:52 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:30:52 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:30:52 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:30:53 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:30:53 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} elementinden alýnan value deðerini {} deðiþkenine kaydet' using 'class step.BaseSteps.saveVariableString"}
+2025-01-12 21:30:53 INFO  BaseSteps:152 saveVariableString - 35,740,573,311.00deÄŸeriamountValueStringdeÄŸiÅŸkenine kaydedildi
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:30:53 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:30:53 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:30:53 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:30:53 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:30:54 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:30:54 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine 1020 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:30:54 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine 110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:30:54 INFO  BaseSteps:329 ssendKeys - AddMoneyAmount elementine 100 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} elementinden alýnan value deðerini double olarak {} deðiþkenine kaydet' using 'class step.BaseSteps.saveVariable"}
+2025-01-12 21:30:54 INFO  BaseSteps:145 saveVariable - 100.0deÄŸeriaddamountdeÄŸiÅŸkenine kaydedildi
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:30:54 INFO  BaseSteps:118 clickElement - AddMoneyAddButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} milisaniye bekle' using 'class step.BaseSteps.waitByMilliSeconds"}
+2025-01-12 21:30:54 INFO  BaseSteps:100 waitByMilliSeconds - 5000 milisaniye bekleniyor.
+{"logLevel":"debug","message":"Executing 'Kaydedilen {} deger {} elementinde hala ayný mý' using 'class step.BaseSteps.checkSavedValueStillSame"}
+2025-01-12 21:31:00 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:31:00 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 14287
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 14287.
+Oca 12, 2025 9:31:01 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:03 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:03 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:03 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:04 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:31:04 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:04 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:05 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:31:05 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} elementinden alýnan value deðerini {} deðiþkenine kaydet' using 'class step.BaseSteps.saveVariableString"}
+2025-01-12 21:31:05 INFO  BaseSteps:152 saveVariableString - 35,740,573,611.00deÄŸeriamountValueStringdeÄŸiÅŸkenine kaydedildi
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:05 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:05 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:31:05 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:05 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:05 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:06 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine 1026 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:06 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine 1110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Ekrana alert geldi mi?' using 'class step.BaseSteps.isAlertPresent"}
+2025-01-12 21:31:06 INFO  BaseSteps:347 isAlertPresent - Alert mevcut.
+2025-01-12 21:31:06 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:31:06 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 22408
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 22408.
+Oca 12, 2025 9:31:07 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:09 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:09 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:09 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:09 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:31:09 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:10 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:10 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:31:10 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} elementinden alýnan value deðerini {} deðiþkenine kaydet' using 'class step.BaseSteps.saveVariableString"}
+2025-01-12 21:31:10 INFO  BaseSteps:152 saveVariableString - 35,740,573,611.00deÄŸeriamountValueStringdeÄŸiÅŸkenine kaydedildi
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:11 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:11 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:31:11 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:11 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 123412341234123412 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Element {} var mý kontrol et yoksa hata mesajý ver {}' using 'class step.BaseSteps.getElementWithKeyIfExistsWithMessage"}
+2025-01-12 21:31:11 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:31:11 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:31:11 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:31:11 INFO  BaseSteps:273 getElementWithKeyIfExistsWithMessage - TooLongText elementi bulundu.
+2025-01-12 21:31:11 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:31:11 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 24921
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 24921.
+Oca 12, 2025 9:31:12 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:14 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:15 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:15 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:15 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:31:15 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:16 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:16 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:31:16 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:16 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:16 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:31:16 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:17 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:17 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:17 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine 1027 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:17 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine 110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:17 INFO  BaseSteps:329 ssendKeys - AddMoneyAmount elementine y2 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:17 INFO  BaseSteps:118 clickElement - AddMoneyAddButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Element {} var mý kontrol et yoksa hata mesajý ver {}' using 'class step.BaseSteps.getElementWithKeyIfExistsWithMessage"}
+2025-01-12 21:31:17 INFO  BaseSteps:273 getElementWithKeyIfExistsWithMessage - AmountErrorText elementi bulundu.
+2025-01-12 21:31:17 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:31:17 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 23745
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 23745.
+Oca 12, 2025 9:31:18 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:20 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:20 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:20 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:21 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:31:21 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:21 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:21 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:31:21 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:22 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:22 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:31:22 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:22 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:22 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Ekrana gelen alert kabul edilir' using 'class step.BaseSteps.acceptAlert"}
+2025-01-12 21:31:22 INFO  BaseSteps:338 acceptAlert - Alert kabul edildi.
+{"logLevel":"debug","message":"Executing 'Element {} var mý kontrol et yoksa hata mesajý ver {}' using 'class step.BaseSteps.getElementWithKeyIfExistsWithMessage"}
+2025-01-12 21:31:22 INFO  BaseSteps:273 getElementWithKeyIfExistsWithMessage - TooLongText elementi bulundu.
+2025-01-12 21:31:22 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:31:22 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 9566
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 9566.
+Oca 12, 2025 9:31:23 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:25 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:25 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:25 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:26 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:31:26 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:26 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:26 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:31:26 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} elementinden alýnan deðeri noktalama iþaretleri ve son üç karakter silinerek double olarak {} deðiþkenine kaydet' using 'class step.BaseSteps.saveVariablee"}
+2025-01-12 21:31:26 INFO  BaseSteps:162 saveVariablee - 3.5740573611E10deÄŸeriamountdeÄŸiÅŸkenine kaydedildi
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:27 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:27 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:31:27 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:27 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:27 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:27 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine 1027 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:27 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine 110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} elementinden alýnan value deðerini double olarak {} deðiþkenine kaydet' using 'class step.BaseSteps.saveVariable"}
+2025-01-12 21:31:28 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:31:28 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 50657
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 50657.
+Oca 12, 2025 9:31:29 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:30 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:31 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:31 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:31 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:31:31 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:31 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:32 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:31:32 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:32 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:32 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:31:32 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:33 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine  texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:33 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:33 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine 1027 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:33 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine 110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:33 INFO  BaseSteps:329 ssendKeys - AddMoneyAmount elementine 100 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} elementinden alýnan value deðerini double olarak {} deðiþkenine kaydet' using 'class step.BaseSteps.saveVariable"}
+2025-01-12 21:31:33 INFO  BaseSteps:145 saveVariable - 100.0deÄŸeriaddamountdeÄŸiÅŸkenine kaydedildi
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:33 INFO  BaseSteps:118 clickElement - AddMoneyAddButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:33 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyRequiredCardNumber elementi bulundu.
+2025-01-12 21:31:33 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyRequiredCardNumber elementine tÄ±klandÄ±.
+2025-01-12 21:31:33 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:31:33 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 19850
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 19850.
+Oca 12, 2025 9:31:34 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:36 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:36 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:36 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:37 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:31:37 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:37 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:38 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:31:38 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:38 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:38 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:31:38 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:38 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:38 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine  texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:39 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine 1027 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:39 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine 110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:39 INFO  BaseSteps:118 clickElement - AddMoneyAddButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:39 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyRequiredCardHolder elementi bulundu.
+2025-01-12 21:31:39 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyRequiredCardHolder elementine tÄ±klandÄ±.
+2025-01-12 21:31:39 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:31:39 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 12733
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 12733.
+Oca 12, 2025 9:31:40 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:42 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:42 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:42 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:42 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:31:42 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:43 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:43 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:31:43 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:43 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:43 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:31:43 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:44 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:44 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:44 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine  texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:44 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine 110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:44 INFO  BaseSteps:118 clickElement - AddMoneyAddButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:44 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyRequiredExpiryDate elementi bulundu.
+2025-01-12 21:31:44 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyRequiredExpiryDate elementine tÄ±klandÄ±.
+2025-01-12 21:31:44 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:31:44 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 56068
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 56068.
+Oca 12, 2025 9:31:45 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:46 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:47 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:47 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:47 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:31:47 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:47 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:48 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:31:48 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:48 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:48 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:31:48 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:49 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:49 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:49 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine 1027 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:49 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine  texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:49 INFO  BaseSteps:118 clickElement - AddMoneyAddButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:49 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyRequiredCvv elementi bulundu.
+2025-01-12 21:31:49 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyRequiredCvv elementine tÄ±klandÄ±.
+2025-01-12 21:31:49 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:31:49 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 32513
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 32513.
+Oca 12, 2025 9:31:50 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:52 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:52 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:52 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:53 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:31:53 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:53 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:54 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:31:54 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:54 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:54 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:31:54 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:54 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:54 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:54 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine 1027 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:55 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine 110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:55 INFO  BaseSteps:118 clickElement - AddMoneyAddButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:55 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyAmountCvv elementi bulundu.
+2025-01-12 21:31:55 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyAmountCvv elementine tÄ±klandÄ±.
+2025-01-12 21:31:55 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:31:55 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 62585
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 62585.
+Oca 12, 2025 9:31:56 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:58 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:31:58 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:58 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:58 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:31:58 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:59 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:59 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:31:59 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:31:59 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:31:59 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:31:59 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:00 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:00 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:00 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine 1027 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:00 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine 110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:00 INFO  BaseSteps:329 ssendKeys - AddMoneyAmount elementine 100 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} elementinden alýnan value deðerini double olarak {} deðiþkenine kaydet' using 'class step.BaseSteps.saveVariable"}
+2025-01-12 21:32:00 INFO  BaseSteps:145 saveVariable - 100.0deÄŸeriaddamountdeÄŸiÅŸkenine kaydedildi
+{"logLevel":"debug","message":"Executing '{} elementine týkla ardýndan güncel tarih ve saati {} deðiþkenine kaydet' using 'class step.BaseSteps.getCurrentDateandClick"}
+2025-01-12 21:32:00 INFO  BaseSteps:222 getCurrentDateandClick - Kaydedilen tarih:12-01-2025 21:32
+{"logLevel":"debug","message":"Executing '{} milisaniye bekle' using 'class step.BaseSteps.waitByMilliSeconds"}
+2025-01-12 21:32:00 INFO  BaseSteps:100 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+{"logLevel":"debug","message":"Executing '{} elementi {} deðiþken deðerini içeriyor mu kontrol et' using 'class step.BaseSteps.getCurrentDateandClickkk"}
+2025-01-12 21:32:01 INFO  BaseSteps:242 getCurrentDateandClickkk - 12-01-2025 21:32 : 12-01-2025 21:32:02
+2025-01-12 21:32:01 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:32:01 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 41642
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 41642.
+Oca 12, 2025 9:32:02 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:04 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:04 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:05 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:05 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:32:05 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:05 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:06 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:32:06 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:06 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:06 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:32:06 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:07 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:07 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:07 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine 1527 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:07 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine 110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:07 INFO  BaseSteps:329 ssendKeys - AddMoneyAmount elementine 100 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} elementinden alýnan value deðerini double olarak {} deðiþkenine kaydet' using 'class step.BaseSteps.saveVariable"}
+2025-01-12 21:32:07 INFO  BaseSteps:145 saveVariable - 100.0deÄŸeriaddamountdeÄŸiÅŸkenine kaydedildi
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:07 INFO  BaseSteps:118 clickElement - AddMoneyAddButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:07 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyWrongDate elementi bulundu.
+2025-01-12 21:32:07 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyWrongDate elementine tÄ±klandÄ±.
+2025-01-12 21:32:07 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:32:07 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 37042
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 37042.
+Oca 12, 2025 9:32:08 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:10 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:10 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:10 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:11 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:32:11 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:11 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:12 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:32:12 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} elementinden alýnan value deðerini {} deðiþkenine kaydet' using 'class step.BaseSteps.saveVariableString"}
+2025-01-12 21:32:12 INFO  BaseSteps:152 saveVariableString - 35,740,573,911.00deÄŸeriamountValueStringdeÄŸiÅŸkenine kaydedildi
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:12 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:12 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:32:12 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:13 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 123412341234123412 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Element {} var mý kontrol et yoksa hata mesajý ver {}' using 'class step.BaseSteps.getElementWithKeyIfExistsWithMessage"}
+2025-01-12 21:32:13 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:13 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:13 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:13 INFO  BaseSteps:273 getElementWithKeyIfExistsWithMessage - TooLongText elementi bulundu.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:13 INFO  BaseSteps:118 clickElement - AddMoneyCloseButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Element yok mu kontrol et {}' using 'class step.BaseSteps.checkElementNotExists"}
+2025-01-12 21:32:13 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:13 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:13 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:14 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:14 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:14 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:14 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:14 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:14 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:14 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:14 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:15 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:15 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:15 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:15 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:15 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:15 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:15 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:15 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:16 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:16 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:16 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:16 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:16 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:16 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:16 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:16 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:17 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:17 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:17 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:17 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:17 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:17 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:17 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:17 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:18 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:18 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:18 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:18 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:18 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:18 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:18 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:18 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:19 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:19 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:19 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:19 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:19 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:19 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:19 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:19 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:20 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:20 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:20 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:20 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:20 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:20 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:20 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:20 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:21 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:21 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:21 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:21 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:21 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:21 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:21 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:21 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:22 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:22 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:22 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:22 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:22 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:22 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:22 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:23 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:23 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:23 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:23 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:23 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:23 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:23 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:23 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:24 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:24 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:24 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:24 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:24 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:24 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:24 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:24 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:25 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:25 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:25 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:25 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:25 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:25 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:25 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:25 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:26 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:26 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:26 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:26 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:26 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:26 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:26 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:27 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:27 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:27 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:27 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:27 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:27 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:27 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:27 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:28 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:28 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:28 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:28 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:28 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:28 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:28 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:28 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:28 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:29 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:29 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:29 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:29 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:29 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:29 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:29 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:29 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:30 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:30 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:30 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:30 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:30 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:30 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:30 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:30 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:31 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:31 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:31 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:31 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:31 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:31 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:31 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:31 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:31 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:32 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:32 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:32 INFO  BaseSteps:100 waitByMilliSeconds - 100 milisaniye bekleniyor.
+2025-01-12 21:32:32 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:32:32 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 19938
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 19938.
+Oca 12, 2025 9:32:33 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:35 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:35 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:35 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:36 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:32:36 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:36 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:36 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:32:36 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:37 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:37 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:32:37 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:37 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:37 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:37 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine 1127 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:37 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine 110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:37 INFO  BaseSteps:329 ssendKeys - AddMoneyAmount elementine 1212121212 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Ekrana alert geldi mi?' using 'class step.BaseSteps.isAlertPresent"}
+2025-01-12 21:32:37 INFO  BaseSteps:347 isAlertPresent - Alert mevcut.
+2025-01-12 21:32:37 INFO  BaseTest:43 setUp - ************************************  BeforeScenario  ************************************
+Oca 12, 2025 9:32:37 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323}) on port 6335
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 6335.
+Oca 12, 2025 9:32:38 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:40 INFO  BaseSteps:329 ssendKeys - LoginUserNameInput elementine duygu.seyis@testinium.com texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:40 INFO  BaseSteps:329 ssendKeys - LoginPasswordInput elementine Df.080119 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:40 INFO  BaseSteps:118 clickElement - LoginButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:41 INFO  BaseSteps:129 getElementWithKeyIfExists - OpenMoneyTransferButon elementi bulundu.
+2025-01-12 21:32:41 INFO  BaseSteps:110 checkElementExistsThenClickk - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:41 INFO  BaseSteps:118 clickElement - OpenMoneyTransferButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:42 INFO  BaseSteps:129 getElementWithKeyIfExists - HomePageTransferMoneyButon elementi bulundu.
+2025-01-12 21:32:42 INFO  BaseSteps:110 checkElementExistsThenClickk - HomePageTransferMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} elementinden alýnan value deðerini {} deðiþkenine kaydet' using 'class step.BaseSteps.saveVariableString"}
+2025-01-12 21:32:42 INFO  BaseSteps:152 saveVariableString - 35,740,573,911.00deÄŸeriamountValueStringdeÄŸiÅŸkenine kaydedildi
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:42 INFO  BaseSteps:118 clickElement - OpenAddMoneyButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing 'Elementi bekle {}' using 'class step.BaseSteps.checkElementExistsThenClickk"}
+2025-01-12 21:32:42 INFO  BaseSteps:129 getElementWithKeyIfExists - AddMoneyCardNumberInput elementi bulundu.
+2025-01-12 21:32:42 INFO  BaseSteps:110 checkElementExistsThenClickk - AddMoneyCardNumberInput elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:42 INFO  BaseSteps:329 ssendKeys - AddMoneyCardNumberInput elementine 1234123412341234 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:43 INFO  BaseSteps:329 ssendKeys - AddMoneyCardHolderInput elementine test test texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:43 INFO  BaseSteps:329 ssendKeys - AddMoneyExpiryDate elementine 1127 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:43 INFO  BaseSteps:329 ssendKeys - AddMoneyCVV elementine 110 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing '{} textini {} elemente yaz' using 'class step.BaseSteps.ssendKeys"}
+2025-01-12 21:32:43 INFO  BaseSteps:329 ssendKeys - AddMoneyAmount elementine 1212121212 texti yazÄ±ldÄ±.
+{"logLevel":"debug","message":"Executing 'Ekrana alert geldi mi?' using 'class step.BaseSteps.isAlertPresent"}
+2025-01-12 21:32:43 INFO  BaseSteps:347 isAlertPresent - Alert mevcut.
+{"logLevel":"debug","message":"Executing 'Ekrana gelen alert kabul edilir' using 'class step.BaseSteps.acceptAlert"}
+2025-01-12 21:32:43 INFO  BaseSteps:338 acceptAlert - Alert kabul edildi.
+{"logLevel":"debug","message":"Executing 'Elementine týkla {}' using 'class step.BaseSteps.clickElement"}
+2025-01-12 21:32:43 INFO  BaseSteps:118 clickElement - AddMoneyAddButon elementine tÄ±klandÄ±.
+{"logLevel":"debug","message":"Executing '{} milisaniye bekle' using 'class step.BaseSteps.waitByMilliSeconds"}
+2025-01-12 21:32:43 INFO  BaseSteps:100 waitByMilliSeconds - 5000 milisaniye bekleniyor.
+{"logLevel":"debug","message":"Executing 'Kaydedilen {} deger {} elementinde hala ayný mý' using 'class step.BaseSteps.checkSavedValueStillSame"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

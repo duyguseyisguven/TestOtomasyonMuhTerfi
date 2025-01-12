@@ -1,0 +1,31 @@
+[
+  {
+    "key": "MyAccountAmount",
+    "value": "//div[text()='Amount']//parent::div//div[contains(text(),'.')]",
+    "type": "xpath"
+  },
+  {
+    "key": "HomePageAccountNameText",
+    "value": "//div[text()='Account name']//following-sibling::div",
+    "type": "xpath"
+  },
+  {
+    "key": "HomePageTransactionTime",
+    "value": "(//div[text()='Time:']//following-sibling::div)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "HomePageIkinciTransactionTime",
+    "value": "(//div[text()='Time:']//following-sibling::div)[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "OpenMoneyTransferButon",
+    "value": "//div[text()='Open Money Transfer']",
+    "type": "xpath"
+  }, {
+  "key": "HomePageTransferMoneyButon",
+  "value": "//div[text()='Transfer money']",
+  "type": "xpath"
+}
+]

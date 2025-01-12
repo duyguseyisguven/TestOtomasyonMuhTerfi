@@ -1,0 +1,17 @@
+
+# Add Money Butonuna Tıklanır
+* Elementine tıkla "OpenAddMoneyButon"
+
+# Add Money Modülünde <cardNumber> Kart Numarası,<cardHolder> Kart Sahibi,<expireDate> Geçerlilik Tarihi,<cvv> Cvv Girilir
+* Elementi bekle "AddMoneyCardNumberInput"
+* <cardNumber> textini "AddMoneyCardNumberInput" elemente yaz
+* <cardHolder> textini "AddMoneyCardHolderInput" elemente yaz
+* <expireDate> textini "AddMoneyExpiryDate" elemente yaz
+* <cvv> textini "AddMoneyCVV" elemente yaz
+
+# Add Money Modülünde <amount> Amount Girilir ve <degisken>'e Kaydedilir
+* <amount> textini "AddMoneyAmount" elemente yaz
+* "AddMoneyAmount" elementinden alınan value değerini double olarak <degisken> değişkenine kaydet
+
+# Add Money Modülünde Add Butonuna Tıklanır
+* Elementine tıkla "AddMoneyAddButon"
