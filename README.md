@@ -20,6 +20,7 @@ Bağımlılıklar
 Projede kullanılan temel bağımlılıklar aşağıdaki gibidir:
 
 <dependencies>
+        
         <dependency>
             <groupId>com.thoughtworks.gauge</groupId>
             <artifactId>gauge-java</artifactId>
@@ -73,6 +74,7 @@ Projede kullanılan temel bağımlılıklar aşağıdaki gibidir:
             <version>2.6</version>
             <scope>test</scope>
         </dependency>
+   
     </dependencies>
 
 Bağımlılıkları eklemek için Maven projenizin pom.xml dosyasına yukarıdaki kodu ekleyin.
